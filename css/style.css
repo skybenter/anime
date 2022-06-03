@@ -1,0 +1,1562 @@
+@charset "UTF-8";
+/*Обнуление*/
+/* line 4, ../../../../Documents/lovemylife/#source/scss/style.scss */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+/* line 5, ../../../../Documents/lovemylife/#source/scss/style.scss */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 7, ../../../../Documents/lovemylife/#source/scss/style.scss */
+:focus, :active {
+  outline: none; }
+
+/* line 8, ../../../../Documents/lovemylife/#source/scss/style.scss */
+a:focus, a:active {
+  outline: none; }
+
+/* line 9, ../../../../Documents/lovemylife/#source/scss/style.scss */
+nav, footer, header, aside {
+  display: block; }
+
+/* line 10, ../../../../Documents/lovemylife/#source/scss/style.scss */
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  background-color: #e9e9e9; }
+
+/* line 14, ../../../../Documents/lovemylife/#source/scss/style.scss */
+input, button, textarea {
+  font-family: inherit; }
+
+/* line 15, ../../../../Documents/lovemylife/#source/scss/style.scss */
+input::-ms-clear {
+  display: none; }
+
+/* line 16, ../../../../Documents/lovemylife/#source/scss/style.scss */
+button {
+  cursor: pointer; }
+
+/* line 17, ../../../../Documents/lovemylife/#source/scss/style.scss */
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+/* line 18, ../../../../Documents/lovemylife/#source/scss/style.scss */
+a, a:visited {
+  text-decoration: none; }
+
+/* line 19, ../../../../Documents/lovemylife/#source/scss/style.scss */
+a:hover {
+  text-decoration: none; }
+
+/* line 20, ../../../../Documents/lovemylife/#source/scss/style.scss */
+ul li {
+  list-style: none; }
+
+/* line 21, ../../../../Documents/lovemylife/#source/scss/style.scss */
+img {
+  vertical-align: top; }
+
+/* line 22, ../../../../Documents/lovemylife/#source/scss/style.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit; }
+
+/**обнуление**/
+/* line 24, ../../../../Documents/lovemylife/#source/scss/style.scss */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500; }
+
+/* line 31, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+/* line 37, ../../../../Documents/lovemylife/#source/scss/style.scss */
+._container {
+  max-width: 1046px;
+  margin: 0px auto;
+  padding: 0 15px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box; }
+
+/* line 43, ../../../../Documents/lovemylife/#source/scss/style.scss */
+._ibg {
+  position: relative; }
+
+/* line 46, ../../../../Documents/lovemylife/#source/scss/style.scss */
+._ibg img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+/* line 54, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 50; }
+
+/* line 61, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 104px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media (max-width: 479px) {
+    /* line 61, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .header__container {
+      min-height: 104px; } }
+
+/* line 68, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.header__logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: inherit;
+  color: #ca00ca; }
+  @media (max-width: 1200px) {
+    /* line 68, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .header__logo {
+      margin: 0px 0px 0px 30px; } }
+  @media (max-width: 350px) {
+    /* line 68, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .header__logo {
+      text-decoration: underline; } }
+  /* line 76, ../../../../Documents/lovemylife/#source/scss/style.scss */
+  .header__logo:active {
+    font-size: 27px;
+    color: gold;
+    text-shadow: 1px 1px red; }
+
+/* line 83, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.header__menu {
+  margin: 0px 0px 0px 133px; }
+  @media (max-width: 980px) {
+    /* line 83, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .header__menu {
+      margin: 0px 0px 0px 80px;
+      line-height: 40px; } }
+  @media (max-width: 780px) {
+    /* line 83, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .header__menu {
+      margin: 0px 0px 0px 40px; } }
+
+/* line 89, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.menu {
+  padding: 5px 0; }
+
+/* line 92, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+/* line 96, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.menu__item {
+  padding: 0px 50px 0px 0px; }
+  @media (max-width: 319px) {
+    /* line 96, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .menu__item {
+      font-size: 12px; } }
+  @media (max-width: 391px) {
+    /* line 96, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .menu__item {
+      margin: 0px 30px 0px 0px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      text-align: right; } }
+
+/* line 102, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.menu__item:not(:last-child) {
+  margin: 0px 21px 0px 0px; }
+
+/* line 105, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.menu__link {
+  color: #ca00ca;
+  line-height: 171%;
+  font-weight: 600; }
+  @media (max-width: 479px) {
+    /* line 105, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .menu__link {
+      font-size: 16px; } }
+  @media (max-width: 780px) {
+    /* line 105, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .menu__link {
+      margin: 0px 0px 0px 40px; } }
+  @media (max-width: 410px) {
+    /* line 105, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .menu__link {
+      margin: 0px 0px 0px 30px; } }
+  @media (max-width: 400px) {
+    /* line 105, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .menu__link {
+      display: block;
+      text-align: center; } }
+  @media (max-width: 375px) {
+    /* line 105, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .menu__link {
+      margin: 0px 0px 0px 70px;
+      text-align: center; } }
+  @media (max-width: 290px) {
+    /* line 105, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .menu__link {
+      margin: 0px 0px 0px 40px;
+      text-align: center; } }
+  /* line 116, ../../../../Documents/lovemylife/#source/scss/style.scss */
+  .menu__link:hover {
+    text-decoration: underline; }
+
+/* line 120, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.iz {
+  color: #00ff88; }
+  /* line 122, ../../../../Documents/lovemylife/#source/scss/style.scss */
+  .iz:hover {
+    color: cyan; }
+
+/* line 127, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.tod {
+  color: #ff0000; }
+  /* line 129, ../../../../Documents/lovemylife/#source/scss/style.scss */
+  .tod:hover {
+    color: blue; }
+
+/* line 134, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.ba {
+  color: orange; }
+  /* line 136, ../../../../Documents/lovemylife/#source/scss/style.scss */
+  .ba:hover {
+    color: #dbdb23; }
+
+/* line 142, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.ur:hover {
+  color: beige; }
+
+/*--------------------page-----------------*/
+/* line 148, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.page {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto; }
+
+/* line 154, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.page__services {
+  position: relative;
+  z-index: 6;
+  margin: -133px 0px 0px 0px;
+  display: block; }
+
+/* line 174, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.page__clients:last-child {
+  margin: 0px 0px 10px 0px; }
+
+/*--------header-block---------*/
+/* line 188, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.header-block {
+  text-align: center;
+  letter-spacing: 0.3px; }
+
+/* line 193, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.header-block__title {
+  line-height: 142%;
+  font-size: 40px;
+  font-weight: 700; }
+  /* line 197, ../../../../Documents/lovemylife/#source/scss/style.scss */
+  .header-block__title:not(:last-child) {
+    margin: 0px 0px 10px 0px; }
+
+/* line 202, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.header-block__sub-title {
+  color: gold;
+  font-size: 24px;
+  line-height: 130%;
+  text-shadow: 2px 2px #1900ff; }
+
+/*--------------------footer-----------------*/
+/*-----------------1BLOCK----------------*/
+/* line 216, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.mainblock {
+  position: relative; }
+
+/* line 222, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.mainblock__body {
+  padding: 184px 0px 191px 0px;
+  position: relative;
+  z-index: 3;
+  max-width: 600px; }
+
+/* line 228, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.mainblock__body > *:not(:last-child) {
+  margin: 0px 0px 35px 0px; }
+
+/* line 231, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.mainblock__title {
+  font-size: 58px;
+  line-height: 137%;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  color: gold;
+  text-shadow: 0px 4px 4px red; }
+
+@media (max-width: 622px) {
+  /* line 241, ../../../../Documents/lovemylife/#source/scss/style.scss */
+  .mainblock__title {
+    font-size: 37px; } }
+
+@media (max-width: 1050px) {
+  /* line 245, ../../../../Documents/lovemylife/#source/scss/style.scss */
+  .mainblock__text {
+    font-size: 20px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; } }
+
+/* line 251, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.mainblock__text {
+  font-size: 19px;
+  color: #d65454;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.705);
+  line-height: 150%;
+  font-weight: 800;
+  letter-spacing: 0.2px; }
+  @media (max-width: 400px) {
+    /* line 251, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .mainblock__text {
+      font-size: 20px; } }
+
+/* line 263, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.mainblock__buttons {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: -10px 0; }
+
+/* line 268, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.mainblock__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.2px;
+  padding: 15px 40px;
+  width: 185px;
+  font-weight: 700;
+  min-height: 48px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border-radius: 37px;
+  margin: 10px 10px;
+  text-align: center; }
+
+@media (max-width: 479px) {
+  /* line 283, ../../../../Documents/lovemylife/#source/scss/style.scss */
+  .mainblock__button {
+    display: block;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    text-align: center; } }
+
+/* line 290, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.mainblock__button_blue {
+  background-color: #1f74d4;
+  color: #ca00ca;
+  font-size: 18px; }
+  /* line 294, ../../../../Documents/lovemylife/#source/scss/style.scss */
+  .mainblock__button_blue:hover {
+    background-color: #ca00ca;
+    color: #1f74d4;
+    -webkit-transition: 0.3s ease 0s;
+    transition: 0.3s ease 0s; }
+
+/* line 300, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.mainblock__button_border {
+  font-size: 18px;
+  text-shadow: 2px 2px 2px #ff0000;
+  color: #000000;
+  border: 2px solid #0d5c63; }
+  /* line 305, ../../../../Documents/lovemylife/#source/scss/style.scss */
+  .mainblock__button_border:hover {
+    border: 2px solid #0d5c63;
+    color: #ffffff;
+    background-color: #0d5c63;
+    text-shadow: 2px 2px 2px #000000; }
+  @media (max-width: 510px) {
+    /* line 300, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .mainblock__button_border {
+      font-size: 20px;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; } }
+
+/* line 317, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.mainblock__image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0; }
+
+@media (max-width: 1300px) {
+  /* line 326, ../../../../Documents/lovemylife/#source/scss/style.scss */
+  .mainblock__image img {
+    -o-object-position: top;
+       object-position: top; } }
+
+@media (max-width: 659px) {
+  /* line 331, ../../../../Documents/lovemylife/#source/scss/style.scss */
+  .mainblock__image img {
+    opacity: 0.7; } }
+
+@media (min-width: 660px) {
+  /* line 338, ../../../../Documents/lovemylife/#source/scss/style.scss */
+  .services__body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0px -15px -30px; } }
+
+/* line 346, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.services__column {
+  padding: 0px 15px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 33.333%;
+          flex: 0 1 33.333%;
+  margin: 0px 0px 30px 0px; }
+  @media (max-width: 992px) {
+    /* line 346, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .services__column {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 1 50%;
+              flex: 0 1 50%;
+      margin: 0px 0px 30px 0px; } }
+
+/* line 361, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.services__item {
+  min-width: 300px;
+  -webkit-box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+          box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  background-color: darkcyan;
+  padding: 35px;
+  height: 100%; }
+
+/* line 368, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.item-service_yellow {
+  background-color: #e9e910; }
+
+/* line 371, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.item-service > *:not(:last-child) {
+  margin: 0px 0px 10px 0px; }
+
+/* line 378, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.item-service__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 133%;
+  color: blanchedalmond;
+  text-shadow: 2px 1px 1px #ff0000;
+  letter-spacing: 0.1px; }
+
+/* line 386, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.item-service__text {
+  color: lightgrey;
+  font-size: 16px;
+  line-height: 142%; }
+  @media (max-width: 552px) {
+    /* line 386, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .item-service__text {
+      font-size: 18px; } }
+
+/* line 394, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.item-service_gray {
+  color: black; }
+
+/* line 397, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.item-service_white {
+  color: white; }
+
+/* line 400, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.information {
+  color: #1900ff; }
+
+@media (max-width: 345px) {
+  /* line 403, ../../../../Documents/lovemylife/#source/scss/style.scss */
+  .item-service {
+    margin: 0px 0px 0px -7px; } }
+
+@media (max-width: 335px) {
+  /* line 403, ../../../../Documents/lovemylife/#source/scss/style.scss */
+  .item-service {
+    margin: 0px 0px 0px -12px; } }
+
+@media (max-width: 325px) {
+  /* line 403, ../../../../Documents/lovemylife/#source/scss/style.scss */
+  .item-service {
+    margin: 0px 0px 0px -20px; } }
+
+/* line 415, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.advantages {
+  padding: 80px 0px; }
+
+/* line 422, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.advantages__header {
+  margin: 0px 0px 50px 0px; }
+
+/* line 427, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.advantages__body {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px -15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  @media (max-width: 792px) {
+    /* line 427, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .advantages__body {
+      display: block;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      margin: 0px -15px -30px; } }
+  @media (max-width: 382px) {
+    /* line 427, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .advantages__body {
+      margin: 0px 0px 0px -30px; } }
+
+/* line 442, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.advantages__column {
+  padding: 0px 15px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 25%;
+          flex: 0 1 25%; }
+  @media (max-width: 750px) {
+    /* line 442, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .advantages__column {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 1 50%;
+              flex: 0 1 50%; } }
+
+/* line 450, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.advantages__item {
+  background-color: rgba(0, 100, 0, 0.712);
+  text-align: center;
+  padding: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 100%; }
+
+/* line 460, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.advantages__item:last-child {
+  margin: 0px 0px 40px 0px; }
+
+/* line 465, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.advantages__img {
+  margin: 0 15px; }
+
+/* line 468, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.advantages__img img {
+  width: 280px;
+  height: 390px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  @media (max-width: 370px) {
+    /* line 468, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .advantages__img img {
+      margin: 0px 0px 0px -55px; } }
+
+/*todoroki&yaoirozy*/
+/* line 484, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.yaoi {
+  color: pink;
+  font-size: 40px;
+  line-height: 142%;
+  text-shadow: 2px 3px #69145e; }
+  @media (max-width: 370px) {
+    /* line 484, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .yaoi {
+      font-size: 25px;
+      text-align: left; } }
+
+/* line 496, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.shot {
+  color: #ff0000;
+  text-shadow: 1px 1px #000000;
+  font-size: 30px;
+  line-height: 150%; }
+  @media (max-width: 370px) {
+    /* line 496, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .shot {
+      font-size: 18px;
+      text-align: left;
+      display: inline-block; } }
+
+/* line 507, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.yash {
+  background-color: rgba(231, 231, 231, 0.712);
+  height: 800px;
+  min-width: 365.81px;
+  text-align: center;
+  padding: 30px 10px; }
+  @media (max-width: 370px) {
+    /* line 507, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .yash {
+      max-height: 600px; } }
+
+/*uraraka&midoriya*/
+/* line 518, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.uraraka {
+  color: #f859fd;
+  text-shadow: 1px 2px #000000;
+  font-size: 30px;
+  line-height: 150%; }
+  @media (max-width: 370px) {
+    /* line 518, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .uraraka {
+      font-size: 18px;
+      text-align: left;
+      display: inline-block;
+      text-shadow: 3px 3px #000000; } }
+
+/* line 530, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.midoriya {
+  font-size: 40px;
+  line-height: 142%;
+  color: gray;
+  text-shadow: 2px 3px #69145e; }
+  @media (max-width: 370px) {
+    /* line 530, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .midoriya {
+      font-size: 18px;
+      text-align: left;
+      text-shadow: 1px 1px #ffffff; } }
+
+/* line 542, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.urmi {
+  background-color: #388838;
+  height: 800px;
+  min-width: 365.81px;
+  text-align: center;
+  padding: 30px 10px; }
+  @media (max-width: 370px) {
+    /* line 542, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .urmi {
+      max-height: 600px; } }
+
+/*kaminari&djiro*/
+/* line 557, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.kadj {
+  background-color: #e5ff00;
+  height: 800px;
+  min-width: 365.81px;
+  text-align: center;
+  padding: 30px 10px; }
+  @media (max-width: 370px) {
+    /* line 557, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .kadj {
+      max-height: 600px; } }
+
+/* line 569, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.kam {
+  font-size: 40px;
+  line-height: 142%;
+  color: #218346;
+  text-shadow: 1px 2px #a12991; }
+  @media (max-width: 492px) {
+    /* line 569, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .kam {
+      font-size: 45px; } }
+  @media (max-width: 370px) {
+    /* line 569, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .kam {
+      font-size: 25px;
+      text-align: left; } }
+
+/* line 582, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.jiro {
+  color: #a848bb;
+  text-shadow: 1px 1px #000000;
+  font-size: 30px;
+  line-height: 150%; }
+  @media (max-width: 492px) {
+    /* line 582, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .jiro {
+      font-size: 25px; } }
+  @media (max-width: 370px) {
+    /* line 582, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .jiro {
+      font-size: 22px;
+      text-align: left;
+      display: inline-block;
+      text-shadow: 1px 1px #4c00ff; } }
+
+/* line 597, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.mina {
+  color: red;
+  font-size: 40px;
+  line-height: 142%;
+  text-shadow: 3px 3px #000000; }
+  @media (max-width: 492px) {
+    /* line 597, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .mina {
+      font-size: 25px; } }
+  @media (max-width: 322px) {
+    /* line 597, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .mina {
+      font-size: 20px; } }
+  @media (max-width: 370px) {
+    /* line 597, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .mina {
+      font-size: 22px;
+      text-align: left; } }
+
+/* line 613, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.kir {
+  color: #04ffab;
+  text-shadow: 1px 1px #df3131;
+  font-size: 30px;
+  line-height: 150%; }
+  @media (max-width: 492px) {
+    /* line 613, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .kir {
+      font-size: 25px; } }
+  @media (max-width: 370px) {
+    /* line 613, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .kir {
+      font-size: 20px;
+      text-align: left;
+      text-shadow: 3px 3px #000000;
+      display: inline-block; } }
+
+/* line 629, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.miki {
+  background-color: #d400ff;
+  height: 800px;
+  min-width: 365.81px;
+  text-align: center;
+  padding: 30px 10px; }
+  @media (max-width: 370px) {
+    /* line 629, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .miki {
+      max-height: 600px; } }
+
+/* line 641, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.practice {
+  padding: 125px 0px 80px 0px; }
+  @media (max-width: 993px) {
+    /* line 641, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .practice {
+      padding: 40px 0px 80px 0px; } }
+  @media (max-width: 763px) {
+    /* line 641, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .practice {
+      padding: 0px 0px 40px 0px; } }
+
+/* line 656, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.practice__header {
+  margin: 0px 0px 45px 0px; }
+  @media (max-width: 767px) {
+    /* line 656, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .practice__header {
+      margin: 0px 0px 25px 0px; } }
+
+/* line 662, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.practice__body {
+  margin: 0px -20px -30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+/* line 668, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.practice__column {
+  padding: 0px 20px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 25%;
+          flex: 0 1 25%;
+  margin: 0px 0px 30px 0px; }
+  @media (max-width: 1040px) {
+    /* line 668, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .practice__column {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 1 50%;
+              flex: 0 1 50%; } }
+  @media (max-width: 630px) {
+    /* line 668, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .practice__column {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 1 100%;
+              flex: 0 1 100%; } }
+
+/* line 687, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.item-practice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+/* line 693, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.item-practice__content {
+  padding: 30px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto; }
+
+/* line 698, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.item-practice__link {
+  color: inherit;
+  display: inline-block; }
+
+/* line 702, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.item-practice__link:hover {
+  text-decoration: underline; }
+
+/* line 706, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.item-practice__link:last-child {
+  margin: 0px 0px 15px 0px; }
+
+/* line 711, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.item-practice__title {
+  letter-spacing: 0.1px;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 700; }
+
+/* line 719, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.item-practice__text {
+  color: #737373;
+  line-height: 142%; }
+
+/* line 725, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.item-practice__image {
+  display: block;
+  padding: 0px 0px  62% 0px; }
+
+/*---------------------------------------*/
+/* line 734, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.whoweare {
+  background-color: #ffffff;
+  padding: 80px 0px 130px 0px; }
+  @media (max-width: 950px) {
+    /* line 734, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .whoweare {
+      padding: 50px 0px 50px 0px; } }
+  @media (max-width: 760px) {
+    /* line 734, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .whoweare {
+      padding: 20px 0px 50px 0px; } }
+  @media (max-width: 380px) {
+    /* line 734, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .whoweare {
+      text-align: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      padding: 0%;
+      margin: -10px; } }
+
+/* line 758, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.whoweare__header {
+  margin: 0px 0px 100px 0px; }
+  @media (max-width: 950px) {
+    /* line 758, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .whoweare__header {
+      margin: 0px 0px 30px 0px; } }
+
+/* line 766, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.whoweare__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+  @media (max-width: 950px) {
+    /* line 766, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .whoweare__body {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+          -ms-flex-direction: column-reverse;
+              flex-direction: column-reverse;
+      -webkit-box-align: stretch;
+          -ms-flex-align: stretch;
+              align-items: stretch; } }
+
+/* line 778, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.whoweare__video {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 57%;
+          flex: 0 0 57%;
+  position: relative;
+  padding: 0px 0px 42.25% 0px; }
+  @media (max-width: 950px) {
+    /* line 778, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .whoweare__video {
+      padding: 0px 0px 56.25% 0px;
+      margin: 0px 0px 51px 0px; } }
+
+/* line 787, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.whoweare__video iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+/* line 795, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.whoweare__video :last-child {
+  margin: 50px 0px 0px 0px; }
+  @media (max-width: 760px) {
+    /* line 795, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .whoweare__video :last-child {
+      margin: 30px 0px 0px 0px; } }
+
+/* line 803, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.whoweare__content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 20px 0px 0px 121px; }
+  @media (max-width: 950px) {
+    /* line 803, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .whoweare__content {
+      padding: 0px 0px 0px 50px; } }
+
+/* line 811, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.whoweare__title {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 142%;
+  letter-spacing: 0.2px; }
+  @media (max-width: 950px) {
+    /* line 811, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .whoweare__title {
+      font-size: 24px; } }
+
+/* line 820, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.whoweare__title:last-child {
+  margin: 0px 0px 10px 0px; }
+
+/* line 824, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.whoweare__text {
+  color: #737373;
+  line-height: 142%; }
+
+/* line 828, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.whoweare__top :last-child {
+  margin: 0px 0px 50px 0px; }
+
+/* line 833, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.whoweare__items {
+  padding: 50px 0px 0px 0px; }
+
+/* line 840, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.whoweare__item:last-child {
+  margin: 0px 0px 30px 0px; }
+
+/* line 843, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.item-whoweare {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+/* line 847, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.item-whoweare__icon {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 32px;
+          flex: 0 0 32px; }
+  @media (max-width: 380px) {
+    /* line 847, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .item-whoweare__icon {
+      margin: 0px 0px 0px -40px;
+      display: block; } }
+
+/* line 856, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.item-whoweare__body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 0px 0px 0px 20px; }
+
+/* line 860, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.item-whoweare__body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 0px 0px 0px 20px; }
+
+/* line 865, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.item-whoweare__title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%; }
+
+/* line 872, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.item-whoweare__text {
+  color: #737373;
+  line-height: 142%;
+  white-space: nowrap;
+  width: 225px;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+/*------------------------*/
+/* line 882, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.clients {
+  padding: 58px 0; }
+
+/* line 888, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.clients__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+/* line 894, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.clients__item {
+  padding: 8px 15px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 16.6667%;
+          flex: 0 1 16.6667%;
+  text-align: center;
+  min-width: 150px; }
+
+/* line 900, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.clients__item img {
+  max-width: 100%; }
+
+/*----------------------*/
+/* line 905, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.subscribe {
+  position: relative;
+  padding: 0px 0px 20px 0px; }
+  /* line 908, ../../../../Documents/lovemylife/#source/scss/style.scss */
+  .subscribe::before {
+    content: "";
+    background: #252b42;
+    bottom: 0;
+    width: 100%;
+    height: 77px;
+    left: 0;
+    position: absolute; }
+
+/* line 924, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.subscribe__body {
+  position: relative;
+  z-index: 2;
+  padding: 30px 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #17213c;
+  border-radius: 2px; }
+  @media (min-width: 1070px) {
+    /* line 924, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .subscribe__body {
+      margin: 0 30px; } }
+  @media (min-width: 810px) {
+    /* line 924, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .subscribe__body {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; } }
+  @media (max-width: 810px) {
+    /* line 924, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .subscribe__body {
+      padding: 20px 25px;
+      margin: 0px -15px;
+      border-radius: 5px; } }
+
+/* line 949, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.subscribe__title {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  line-height: 133%;
+  font-size: 24px; }
+  @media (max-width: 810px) {
+    /* line 949, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .subscribe__title {
+      padding: 0px 0px 20px 0px; } }
+  @media (min-width: 810px) {
+    /* line 949, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .subscribe__title {
+      max-width: 266px; } }
+
+/* line 967, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.subscribe_form {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+/* line 973, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.subscribe__input {
+  width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  min-height: 58px;
+  background-color: #f9f9f9;
+  padding: 0px 20px;
+  border: 1px solid #e6e6e6;
+  border-right: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px 0 0 5px; }
+  @media (max-width: 810px) {
+    /* line 973, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .subscribe__input {
+      padding: 0px 15px; } }
+
+/* line 988, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.subscribe__button {
+  background: #fbff00;
+  border: 1px solid #E6E6E6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 0px 5px 5px 0px;
+  min-height: 58px;
+  color: #17213c;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  padding: 0px 22px; }
+  @media (max-width: 810px) {
+    /* line 988, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .subscribe__button {
+      padding: 0px 15px; } }
+  /* line 1004, ../../../../Documents/lovemylife/#source/scss/style.scss */
+  .subscribe__button:hover {
+    background: #b3b603; }
+
+/***************************/
+/* line 1011, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.getintouch {
+  padding: 80px 0px 135px 0px; }
+  @media (max-width: 992px) {
+    /* line 1011, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .getintouch {
+      margin: 50px 0px; } }
+
+/* line 1024, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.getintouch_-header {
+  margin: 0px 0px 80px 0px; }
+  @media (max-width: 992px) {
+    /* line 1024, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .getintouch_-header {
+      margin: 0px 0px 50px 0px; } }
+  @media (max-width: 767px) {
+    /* line 1024, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .getintouch_-header {
+      margin: 0px 0px 30px 0px; } }
+
+/* line 1036, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.getintouch_items {
+  margin: 0px -15px; }
+  @media (min-width: 992px) {
+    /* line 1036, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .getintouch_items {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 0px;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; } }
+
+/* line 1046, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.getintouch__item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 33.333%;
+          flex: 0 1 33.333%; }
+
+/* line 1050, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.item-getintouch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fafafa;
+  padding: 50px 15px; }
+
+/* line 1058, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.item-getintouch_active {
+  background: #252b42;
+  padding: 80px 15px;
+  color: #fafafa; }
+  @media (max-width: 992px) {
+    /* line 1058, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .item-getintouch_active {
+      padding: 50px 15px; } }
+
+/* line 1068, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.item-getintouch_active .item-getintouch__button {
+  border: 1px solid #fafafa;
+  color: #fff; }
+
+/* line 1075, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.item-getintouch > *:not(:last-child) {
+  margin: 0px 0px 15px 0px; }
+
+/* line 1082, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.item-getintouch__emails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+/* line 1089, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.item-getintouch__email {
+  color: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%; }
+
+/* line 1095, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.item-getintouch__email:hover {
+  text-decoration: underline; }
+
+/* line 1098, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.item-getintouch__label {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%; }
+
+/* line 1104, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.item-getintouch__button {
+  border: 1px solid #1900ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 44px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #1900ff;
+  padding: 5px 20px;
+  border-radius: 5px;
+  line-height: 142%;
+  font-weight: 600;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; }
+  /* line 1118, ../../../../Documents/lovemylife/#source/scss/style.scss */
+  .item-getintouch__button:hover {
+    background-color: #1900ff;
+    color: #ff0000;
+    border: 1px solid #fafafa; }
+
+/* line 1125, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.contact {
+  background-color: #fafafa; }
+
+@media (min-width: 748px) {
+  /* line 1131, ../../../../Documents/lovemylife/#source/scss/style.scss */
+  .contactus__body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 42px 0; } }
+
+/* line 1141, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.contact__content {
+  padding: 0px 0px 20px 0px; }
+  @media (min-width: 748px) {
+    /* line 1141, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .contact__content {
+      padding: 0px 20px 0px 0px; } }
+
+/* line 1147, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.contact__title {
+  letter-spacing: 0.1px;
+  font-size: 24px;
+  line-height: 133%;
+  font-weight: 700; }
+  @media (max-width: 747px) {
+    /* line 1147, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .contact__title {
+      padding: 20px 0px 0px 0px; } }
+  /* line 1155, ../../../../Documents/lovemylife/#source/scss/style.scss */
+  .contact__title:last-child {
+    margin: 0px 0px 10px 0px; }
+
+/* line 1159, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.contact__text {
+  line-height: 142%;
+  color: #737373; }
+
+/* line 1163, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.contact__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #0fffff;
+  background-color: #0400ff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 5px 20px;
+  -webkit-transition: background-color 0.3s ease 0s;
+  transition: background-color 0.3s ease 0s;
+  min-height: 48px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center; }
+  /* line 1177, ../../../../Documents/lovemylife/#source/scss/style.scss */
+  .contact__button:hover {
+    background-color: #05039c;
+    color: #00ff88; }
+
+/*8888888888888888888888888888*/
+/* line 1194, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.footer__top {
+  background-color: #17213c;
+  padding: 35px 0; }
+
+/* line 1202, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.footer__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0px -15px; }
+
+/* line 1209, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.footer__column {
+  padding: 15px 15px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 16.6667%;
+          flex: 0 1 16.6667%;
+  min-width: 170px; }
+  /* line 1213, ../../../../Documents/lovemylife/#source/scss/style.scss */
+  .footer__column:last-child {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 33.334%;
+            flex: 0 1 33.334%; }
+  @media (max-width: 1020px) {
+    /* line 1209, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .footer__column {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 1 25%;
+              flex: 0 1 25%;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%; }
+      /* line 1218, ../../../../Documents/lovemylife/#source/scss/style.scss */
+      .footer__column:last-child {
+        -webkit-box-flex: 1;
+            -ms-flex: 1 1 100%;
+                flex: 1 1 100%; } }
+
+/* line 1225, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.footer__label {
+  color: #fafafa;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  padding: 0px 0px 20px 0px; }
+
+/* line 1249, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.menu-footer_item:last-child {
+  margin: 0px 0px 15px 0px; }
+
+/* line 1254, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.menu-footer__link {
+  color: #fafafa;
+  letter-spacing: 0.2px; }
+  /* line 1258, ../../../../Documents/lovemylife/#source/scss/style.scss */
+  .menu-footer__link:hover {
+    text-decoration: underline; }
+
+/* line 1269, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.contacts-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+/* line 1274, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.contacts-footer__item {
+  padding: 0px 0px 0px 34px;
+  line-height: 142%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  min-height: 30px; }
+  /* line 1281, ../../../../Documents/lovemylife/#source/scss/style.scss */
+  .contacts-footer__item:last-child {
+    margin: 0px 0px 12px 0px; }
+  /* line 1284, ../../../../Documents/lovemylife/#source/scss/style.scss */
+  .contacts-footer__item:hover {
+    text-decoration: underline; }
+
+/* line 1289, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.contacts-footer__item_phone {
+  background: url(/img/footer/Vector.svg) 0 0 no-repeat; }
+
+/* line 1293, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.contacts-footer__item_map {
+  background: url(/img/footer/Group3.svg) 0 0 no-repeat; }
+
+/* line 1297, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.contacts-footer__item_email {
+  background: url(/img/footer/Vector1.svg) 0 0 no-repeat; }
+
+/* line 1301, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.footer__bottom {
+  padding: 25px 0; }
+
+/* line 1305, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media (max-width: 767px) {
+    /* line 1305, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .footer__container {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; } }
+
+/* line 1315, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.footer__copy {
+  color: #737373;
+  line-height: 171%; }
+  @media (max-width: 767px) {
+    /* line 1315, ../../../../Documents/lovemylife/#source/scss/style.scss */
+    .footer__copy {
+      margin: 0px 0px 15px 0px;
+      text-align: center; } }
+
+/* line 1328, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+/* line 1337, ../../../../Documents/lovemylife/#source/scss/style.scss */
+.social__item img:last-child {
+  margin: 0px 20px 0px 0px; }
